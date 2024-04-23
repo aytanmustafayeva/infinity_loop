@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container {
+  padding: 40px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* background: transparent; */
+}
+
+.header__parents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+  justify-content: space-between;
+}
+
+.nav ul > li > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+}
+
+.section1 {
+  background-image: url("https://www.tooplate.com/templates/2117_infinite_loop/img/infinite-loop-01.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.section1 h2 {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 3.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn {
+  margin-top: 50px;
+  background-color: #38b;
+  color: #fff;
+  padding: 30px 40px;
+  border: 1px solid #38b;
+  font-size: 2em;
+}
+
+.section2 h2 {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 3.5rem;
+  color: #37a;
+}
+
+p {
+  display: block;
+  font-size: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+.section2__text a {
+  color: #37a;
+  text-decoration: none;
+}
+
+.all__parts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.part {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.icon {
+  color: #37a;
+  font-size: 1.2em;
+  margin-right: 20px;
+  align-items: center;
+}
+
+h3 {
+  color: #37a;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.part p {
+  color: #707070;
+}
+
+.part__btn {
+  padding: 14px 30px;
+  background-color: #369;
+  margin-top: 15px;
+  border: 1px solid #369;
+}
+
+.part__btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.section3 {
+  background-image: url("https://www.tooplate.com/templates/2117_infinite_loop/img/infinite-loop-01.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.section3__header {
+  text-align: center;
+  padding: 0 250px;
+}
+
+.section3__allparts {
+  display: flex;
+  justify-content: space-evenly;
+}
+.parts {
+  margin-top: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img img {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.text p:first-child {
+  font-size: 0.86rem;
+  line-height: 1.8em;
+  margin-bottom: 15px;
+}
+
+.text p:nth-child(2) {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.section4 {
+  text-align: center;
+  color: #000;
+}
+
+.section4__header {
+  text-align: center;
+  padding: 0 250px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px; */
+}
+
+.section4__allparts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.gallery__img img {
+  width: 200px;
+  height: 300px;
+}
+
+.section5 {
+  background-image: url("https://www.tooplate.com/templates/2117_infinite_loop/img/infinite-loop-03.jpg");
+}
+
+.section5__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding: 0 250px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.section5__header h4 {
+  font-family: "Sarabun", sans-serif;
+  font-size: 2.6rem;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.section5__header p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.9;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 170px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+input[type="text"] {
+  background: transparent;
+  width: 300px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+}
+
+input[type="text"]:nth-child(3) {
+  height: 120px;
+}
+
+.input__btn {
+  background-color: #38b;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #38b;
+  font-size: 2em;
+}
+
+.input__btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.contact__icon {
+  list-style: none;
+  align-items: center;
+}
+
+.contact__icon li {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contact__icon a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.9;
+}
+
+.contact__icon i {
+  margin-right: 35px;
+  align-items: center;
+}
